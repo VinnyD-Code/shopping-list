@@ -108,14 +108,13 @@ header h1 {
 
 .items {
   margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .items li {
   display: flex;
   justify-content: space-between;
-  width: 45%;
+  width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px 15px;
